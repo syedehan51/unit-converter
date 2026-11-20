@@ -239,3 +239,7 @@ body {
   .caliper-btn, .caliper-btn:active { transition: none; transform: none; }
 }
 
+.legal { max-width: 640px; margin: 60px auto; padding: 0 20px 60px; line-height: 1.7; }
+.legal h1 { font-family: var(--font-display); font-size: 28px; }
+.legal h2 { font-family: var(--font-display); font-size: 18px; margin-top: 32px; }
+.legal a { color: var(--blueprint); }
