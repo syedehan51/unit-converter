@@ -79,6 +79,60 @@ const CATEGORIES = {
       "sq mile": 2589988.110336,
     },
   },
+    data: {
+    code: "D",
+    label: "Data",
+    base: "byte",
+    units: {
+      byte: 1,
+      bit: 0.125,
+      "kilobyte (KB)": 1000,
+      "megabyte (MB)": 1000000,
+      "gigabyte (GB)": 1000000000,
+      "terabyte (TB)": 1000000000000,
+    },
+  },
+  time: {
+    code: "Ti",
+    label: "Time",
+    base: "second",
+    units: {
+      second: 1,
+      millisecond: 0.001,
+      minute: 60,
+      hour: 3600,
+      day: 86400,
+      week: 604800,
+      "year (365 days)": 31536000,
+    },
+  },
+  energy: {
+    code: "E",
+    label: "Energy",
+    base: "joule",
+    units: {
+      joule: 1,
+      kilojoule: 1000,
+      calorie: 4.184,
+      kilocalorie: 4184,
+      "watt-hour": 3600,
+      "kilowatt-hour": 3600000,
+      BTU: 1055.06,
+    },
+  },
+  pressure: {
+    code: "P",
+    label: "Pressure",
+    base: "pascal",
+    units: {
+      pascal: 1,
+      kilopascal: 1000,
+      bar: 100000,
+      psi: 6894.757,
+      atmosphere: 101325,
+      mmHg: 133.322,
+    },
+  },
 };
 
 let currentCategory = "length";
