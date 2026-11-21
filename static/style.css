@@ -243,3 +243,12 @@ body {
 .legal h1 { font-family: var(--font-display); font-size: 28px; }
 .legal h2 { font-family: var(--font-display); font-size: 18px; margin-top: 32px; }
 .legal a { color: var(--blueprint); }
+
+.info { margin-top: 48px; line-height: 1.7; }
+.info h2 { font-family: var(--font-display); font-size: 20px; margin: 36px 0 12px; }
+.info h3 { font-size: 15px; margin: 20px 0 4px; }
+.info p { margin: 0; color: var(--ink); }
+.quick-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.quick-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.quick-table td:first-child { font-family: var(--font-mono); font-size: 14px; }
+.quick-table td:last-child { text-align: right; color: var(--success); font-weight: 600; }
